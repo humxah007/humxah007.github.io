@@ -1,36 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+
 # Main Page Setup
-title: M Hamza Khalid's Portfolio
+
+title: M Hamza Khalid's Portfolio # This is what shows up in the tab of the browser
+
+
+
+# Hero Section
 name: Hamza
 headline: Aerospace Engineer
-description: >-
+description: >- # dont remove this line. this will ignore all new lines until the next section
   Hi, I’m Hamza – an Aerospace Engineer, who thrives on the possibility of turning great
   ideas into a tangible technology. At my final year in the Institute of Space Technology,
-  my area of study centers around CAD modeling, aerodynamic simulations, and structural
+  my area of study centers around CAD modeling, aerodynamic  simulations and structural
   analysis issues. I’ve worked on the problem of turning rotorcrafts into sustainable 
   bicycles as well as operating models of Concorde for analysing supersonic flights and
   so on, all breathing new life into creativity and engineering.
-  
+
   However, being an engineer skilled in CATIA, SolidWorks, ANSYS, MATLAB/Simulink, and 
   QBlade, I deal with any job with understanding of technical processes and thinking 
   from a creative perspective to solve any problem. I flourish on such a job as developing
   new forms of propulsion, modeling control, or pushing tomorrow’s modes of transportation.
 
+
+# Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Hamza.jpg
+
+
+# Link your resume
+# You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
 resume-url: ./assets/images/profile-image/CV1%20(2).pdf
 
-external-links:
-  linkedin: https://www.linkedin.com/in/mhamzakhali­d100
-  github: 
-  stackoverflow: 
-  medium: 
-  x-twitter: 
-  threads: 
-  instagram: 
-  youtube: 
-  discord: 
-  bluesky: 
 
-# Skills Section - Add the list of your Skills by categories/tools
+# Set up external links - this will show up as small icons next to your name.
+
+external-links:    # input only your own url slug. The icons with missing entries will not appear.
+  linkedin: https://www.linkedin.com/in/mhamzakhali­d100    # https://www.linkedin.com/in/{your url slug} 
+  github:     # https://github.com/{your url slug} 
+  stackoverflow:     # https://stackoverflow.com/users/{your url slug}
+  medium:            # https://medium.com/@{your url slug} 
+  x-twitter:   # https://x.com/{your url slug} 
+  threads:            # https://threads.net/@{your url slug} 
+  instragram:       # https://instagram.com/{your url slug} 
+  youtube:           # https://youtube.com/@{your url slug} 
+  discord:            # https://discord.com/users/{your url slug} 
+  bluesky:           # https://bsky.app/profile/{your url slug} 
+  
+
+# Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
   - category: 3D Modeling & CAD
     tools:
@@ -77,56 +99,34 @@ skills:
     - Presentation (Canva, SmartSlides)
     - MS Office (Word, PowerPoint, Excel)
 
-# Contact Form Setup
-formspree-key: https://formspree.io/f/movdkvor
+# Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
+formspree-key:   https://formspree.io/f/movdkvor
 
-# Active theme - Space Grey theme
-colors: # this is the space grey theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#2f3236"
-  light_background: "#393c42"
 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
+
+# Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
+colors: # This is the space grey theme
+  text: "#FFFFFF"  # White text for readability
+  border: "#444444"  # Subtle borders
+  link: "#00C3FF"  # Bright cyan for links (spacey look)
+  highlight: "#FF6347"  # Bright coral for highlighted text
+  background: "#1E1E1E"  # Dark background (space grey)
+  light_background: "#2D2D2D"  # Slightly lighter background for sections
+
+
+
+
+
+
 
 #########################################################################################################
-# Build settings for the site
+# Build settings for the site. Editing the below may cause the site to malfunction.
+
 collections:
   projects:
     output: true
     permalink: /projects/:path/
+
 
 markdown: kramdown
 highlighter: rouge
@@ -146,3 +146,24 @@ plugins:
 
 include:
   - _projects
+
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
