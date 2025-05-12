@@ -105,22 +105,14 @@ formspree-key:   https://formspree.io/f/movdkvor
 
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the same.
-colors: # This is the basic theme
-  text: "#FFFFFF"  # White text to contrast with dark background
-  border: "#444444"  # Dark border for subtle contrasts
+colors: # This is the space grey theme
+  text: "#FFFFFF"  # White text for readability
+  border: "#444444"  # Subtle borders
   link: "#00C3FF"  # Bright cyan for links (spacey look)
   highlight: "#FF6347"  # Bright coral for highlighted text
   background: "#1E1E1E"  # Dark background (space grey)
   light_background: "#2D2D2D"  # Slightly lighter background for sections
 
-# Example Space Grey Theme:
-space-grey-theme:
-  text: "#FFFFFF"  # White text for readability
-  border: "#444444"  # Subtle borders
-  link: "#00C3FF"  # Bright cyan for links (space theme)
-  highlight: "#FF6347"  # Bright coral for highlights
-  background: "#1E1E1E"  # Dark background for that space vibe
-  light_background: "#2D2D2D"  # Lighter background for certain areas
 
 
 
