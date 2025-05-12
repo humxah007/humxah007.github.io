@@ -1,33 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>M Hamza Khalid | Aerospace Engineer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-</head>
-<body>
-  <div class="background-stars"></div>
-  
-  <section class="hero" data-aos="fade-up">
-    <img src="./assets/images/profile-image/Hamza.jpg" alt="Hamza" class="profile-image">
-    <h1>Hello, I’m <span class="highlight">Hamza</span></h1>
-    <h2><span id="typed"></span></h2>
-    <p>Final year aerospace engineering student at IST, passionate about advanced transportation, aerodynamics, and sustainable mobility systems.</p>
-    <a href="./assets/images/profile-image/CV1%20(2).pdf" class="btn" target="_blank">View Resume</a>
-  </section>
+---
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init();
-    new Typed('#typed', {
-      strings: ["Aerospace Engineer", "CFD Enthusiast", "CAD Designer"],
-      typeSpeed: 50,
-      backSpeed: 30,
-      loop: true
-    });
-  </script>
-</body>
-</html>
+layout: wrapper
+---
+
+{% include hero.html%}
+
+
+
+<div class="arrow"> 
+    <a href="#projects">
+        More About Me
+    <i class="fa-solid fa-angles-down"></i>
+    </a> 
+</div>
+{% include projects.html%}
+{% include skills.html%}
+{% include contact.html%}
