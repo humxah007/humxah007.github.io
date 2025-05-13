@@ -947,3 +947,14 @@ footer p {
       
 }
 
+input,
+textarea {
+  color: #FFFFFF !important; /* white text */
+  background-color: #1E1E1E !important; /* match dark theme */
+  border: 1px solid #444444; /* match theme border */
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #AAAAAA; /* light grey placeholder text */
+}
