@@ -497,24 +497,33 @@ nav .mobile-nav {
     
 }
 
+/* Button for Send Message */
 .contact-section .group form button {
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;
-    font-weight: 600;
-    color: var(--text-color);
-    background-color: var(--link-color);
-    padding: 12px 0;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.2s ease;
-    margin-top: 10px;
+    font-size: 16px;                  /* Appropriate size for readability */
+    font-weight: bold;                /* Bold text for emphasis */
+    color: var(--text-color);         /* White text color */
+    background-color: var(--link-color);  /* Using soft blue for background */
+    border: none;                     /* Remove default border */
+    padding: 15px 25px;               /* Adjust padding for better size */
+    margin-top: 10px;                 /* Space from form inputs */
+    border-radius: 6px;               /* Rounded corners */
+    cursor: pointer;                 /* Pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+    width: 100%;                      /* Ensures the button takes up full width */
 }
 
-/* Optional hover effect for better UX */
+/* Hover effect to darken the button when the user hovers over */
 .contact-section .group form button:hover {
-    background-color: #3b82f6; /* A slightly deeper blue for hover */
+    background-color: #3b82f6; /* Slightly darker blue on hover */
 }
+
+/* Focus state to improve accessibility */
+.contact-section .group form button:focus {
+    outline: none;                  /* Remove default focus outline */
+    box-shadow: 0 0 3px var(--highlight-color); /* Subtle focus effect */
+}
+
 
 
 
