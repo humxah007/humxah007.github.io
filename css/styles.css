@@ -473,12 +473,20 @@ nav .mobile-nav {
     background-color: #3a3a3a;         /* lighter grey for good contrast */
     color: var(--text-color);          /* white text */
     border: 1px groove var(--text-color);
-    padding:5px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 15px;
     outline: none;
     resize: none;
-    font-size: 13px;
+    font-size: 14px;
+    border-radius: 6px;
 }
+
+/* Optional: improve placeholder visibility */
+.contact-section .group form input::placeholder,
+.contact-section .group form textarea::placeholder {
+    color: #bbbbbb;
+}
+
 
 /* Optional: improve placeholder visibility */
 .contact-section .group form input::placeholder,
