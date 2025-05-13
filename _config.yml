@@ -9,12 +9,10 @@
 
 title: M Hamza Khalid's Portfolio # This is what shows up in the tab of the browser
 
-
-
 # Hero Section
 name: Hamza
 headline: Aerospace Engineer
-description: >- # dont remove this line. this will ignore all new lines until the next section
+description: >-
   Hi, I’m Hamza – an Aerospace Engineer, who thrives on the possibility of turning great
   ideas into a tangible technology. At my final year in the Institute of Space Technology,
   my area of study centers around CAD modeling, aerodynamic  simulations and structural
@@ -27,30 +25,22 @@ description: >- # dont remove this line. this will ignore all new lines until th
   from a creative perspective to solve any problem. I flourish on such a job as developing
   new forms of propulsion, modeling control, or pushing tomorrow’s modes of transportation.
 
-
-# Place your profile image in /assets/images/profile-image/folder and edit the file name
 profile_image: ./assets/images/profile-image/Hamza.jpg
 
-
-# Link your resume
-# You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
 resume-url: ./assets/images/profile-image/CV.pdf
 
-
 # Set up external links - this will show up as small icons next to your name.
-
-external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: https://www.linkedin.com/in/mhamzakhali­d100    # https://www.linkedin.com/in/{your url slug} 
-  github:     # https://github.com/{your url slug} 
-  stackoverflow:     # https://stackoverflow.com/users/{your url slug}
-  medium:            # https://medium.com/@{your url slug} 
-  x-twitter:   # https://x.com/{your url slug} 
-  threads:            # https://threads.net/@{your url slug} 
-  instragram:       # https://instagram.com/{your url slug} 
-  youtube:           # https://youtube.com/@{your url slug} 
-  discord:            # https://discord.com/users/{your url slug} 
-  bluesky:           # https://bsky.app/profile/{your url slug} 
-  
+external-links:
+  linkedin: https://www.linkedin.com/in/mhamzakhali­d100
+  github:     
+  stackoverflow:     
+  medium:            
+  x-twitter:   
+  threads:            
+  instragram:       
+  youtube:           
+  discord:            
+  bluesky:           
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
@@ -100,24 +90,16 @@ skills:
     - MS Office (Word, PowerPoint, Excel)
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/movdkvor
-
-
+formspree-key: https://formspree.io/f/movdkvor
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # This is the space grey theme
-  text: "#FFFFFF"  # White text for readability
-  border: "#444444"  # Subtle borders
-  link: "#00C3FF"  # Bright cyan for links (spacey look)
-  highlight: "#FF6347"  # Bright coral for highlighted text
-  background: "#1E1E1E"  # Dark background (space grey)
-  light_background: "#2D2D2D"  # Slightly lighter background for sections
-
-
-
-
-
-
+colors:
+  text: "#FFFFFF"             # White text for readability
+  border: "#444444"           # Subtle borders
+  link: "#00C3FF"             # Bright cyan for links (spacey look)
+  highlight: "#FF6347"        # Bright coral for highlighted text
+  background: "#1E1E1E"       # Dark background (space grey)
+  light_background: "#2D2D2D" # Slightly lighter background for sections
 
 #########################################################################################################
 # Build settings for the site. Editing the below may cause the site to malfunction.
@@ -126,7 +108,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
-
 
 markdown: kramdown
 highlighter: rouge
@@ -146,24 +127,3 @@ plugins:
 
 include:
   - _projects
-
-
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
