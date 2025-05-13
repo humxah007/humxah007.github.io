@@ -2,15 +2,13 @@
 ---
 
 :root {
-  --text-color: #ffffff;              /* white text */
-  --border-color: #4b5563;            /* medium gray border */
-  --link-color: #60a5fa;              /* soft blue for links */
-  --highlight-color: #fbbf24;         /* yellow/orange highlight */
-  --background-color: #1e1e1e;        /* space grey background */
-  --light-background-color: #2a2a2a;  /* slightly lighter grey */
+  --text-color: {{ site.colors.text }};
+  --border-color: {{ site.colors.border }};
+  --link-color: {{ site.colors.link }};
+  --highlight-color: {{ site.colors.highlight }};
+  --background-color: {{ site.colors.background }};
+  --light-background-color: {{ site.colors.light_background }};
 }
-
-
 
 * {
     margin: 0;
@@ -467,22 +465,17 @@ nav .mobile-nav {
     color:var(--text-color)
 }
 
-.contact-section .group form input,
-.contact-section .group form textarea {
+.contact-section .group form input, .contact-section .group form textarea {
     font-family: 'Poppins', sans-serif;
-    background-color: #3a3a3a;         /* lighter grey for good contrast */
-    color: var(--text-color);          /* white text */
+    background-color: var(--light-background-color);
     border: 1px groove var(--text-color);
-    padding: 5px;
+    padding:5px;
     margin-bottom: 10px;
     outline: none;
     resize: none;
     font-size: 13px;
+    
 }
-  
-}
-
-/* Button for Send Message */
 
 .contact-section .group form button {
     font-size: 16px;
@@ -494,7 +487,6 @@ nav .mobile-nav {
     cursor: pointer;
     transition: 0.1s
 }
-
 
 
 /* FOOTER */
@@ -539,13 +531,13 @@ footer .links {
 }
 
 footer .links a {
-    color: var(--light-background-color);
-    font-size: 1px;
+    color: var(--text-color);
+    font-size: 20px;
     margin: 0 30px;
 }
 
 footer .links a:hover {
-    color: var(--light-background-color);
+    color: var(--link-color);
 }
 
 footer .license {
@@ -954,4 +946,3 @@ footer p {
 
       
 }
-
