@@ -2,13 +2,14 @@
 ---
 
 :root {
-  --text-color: {{ site.colors.text }};
-  --border-color: {{ site.colors.border }};
-  --link-color: {{ site.colors.link }};
-  --highlight-color: {{ site.colors.highlight }};
-  --background-color: {{ site.colors.background }};
-  --light-background-color: {{ site.colors.light_background }};
+  --text-color: #111827;
+  --border-color: #d1d5db;
+  --link-color: #3b82f6;
+  --highlight-color: #f59e0b;
+  --background-color: #f9fafb;
+  --light-background-color: #e5e7eb;
 }
+
 
 * {
     margin: 0;
@@ -947,14 +948,3 @@ footer p {
       
 }
 
-input,
-textarea {
-  color: #FFFFFF !important; /* white text */
-  background-color: #1E1E1E !important; /* match dark theme */
-  border: 1px solid #444444; /* match theme border */
-}
-
-input::placeholder,
-textarea::placeholder {
-  color: #AAAAAA; /* light grey placeholder text */
-}
