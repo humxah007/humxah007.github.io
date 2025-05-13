@@ -498,15 +498,24 @@ nav .mobile-nav {
 }
 
 .contact-section .group form button {
-    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
     background-color: var(--link-color);
-    border:none;
-    height: 50px;
+    padding: 12px 0;
+    border: none;
+    border-radius: 6px;
     cursor: pointer;
-    transition: 0.1s
+    transition: background-color 0.2s ease;
+    margin-top: 10px;
 }
+
+/* Optional hover effect for better UX */
+.contact-section .group form button:hover {
+    background-color: #3b82f6; /* A slightly deeper blue for hover */
+}
+
 
 
 /* FOOTER */
