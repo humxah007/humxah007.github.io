@@ -473,57 +473,27 @@ nav .mobile-nav {
     background-color: #3a3a3a;         /* lighter grey for good contrast */
     color: var(--text-color);          /* white text */
     border: 1px groove var(--text-color);
-    padding: 10px;
-    margin-bottom: 15px;
+    padding: 5px;
+    margin-bottom: 10px;
     outline: none;
     resize: none;
-    font-size: 14px;
-    border-radius: 6px;
+    font-size: 13px;
 }
-
-/* Optional: improve placeholder visibility */
-.contact-section .group form input::placeholder,
-.contact-section .group form textarea::placeholder {
-    color: #bbbbbb;
-}
-
-
-/* Optional: improve placeholder visibility */
-.contact-section .group form input::placeholder,
-.contact-section .group form textarea::placeholder {
-    color: #bbbbbb;
-}
-
-    
+  
 }
 
 /* Button for Send Message */
+
 .contact-section .group form button {
+    font-size: 16px;
     font-family: 'Poppins', sans-serif;
-    font-size: 16px;                  /* Appropriate size for readability */
-    font-weight: bold;                /* Bold text for emphasis */
-    color: var(--text-color);         /* White text color */
-    background-color: var(--link-color);  /* Using soft blue for background */
-    border: none;                     /* Remove default border */
-    padding: 15px 25px;               /* Adjust padding for better size */
-    margin-top: 10px;                 /* Space from form inputs */
-    border-radius: 6px;               /* Rounded corners */
-    cursor: pointer;                 /* Pointer on hover */
-    transition: background-color 0.3s ease; /* Smooth hover effect */
-    width: 100%;                      /* Ensures the button takes up full width */
+    color: #fff;
+    background-color: var(--link-color);
+    border:none;
+    height: 50px;
+    cursor: pointer;
+    transition: 0.1s
 }
-
-/* Hover effect to darken the button when the user hovers over */
-.contact-section .group form button:hover {
-    background-color: #3b82f6; /* Slightly darker blue on hover */
-}
-
-/* Focus state to improve accessibility */
-.contact-section .group form button:focus {
-    outline: none;                  /* Remove default focus outline */
-    box-shadow: 0 0 3px var(--highlight-color); /* Subtle focus effect */
-}
-
 
 
 
@@ -569,13 +539,13 @@ footer .links {
 }
 
 footer .links a {
-    color: var(--text-color);
-    font-size: 20px;
+    color: var(--light-background-color);
+    font-size: 1px;
     margin: 0 30px;
 }
 
 footer .links a:hover {
-    color: var(--link-color);
+    color: var(--light-background-color);
 }
 
 footer .license {
