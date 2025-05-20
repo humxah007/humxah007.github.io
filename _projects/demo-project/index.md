@@ -46,7 +46,7 @@ Use this to have subsection if needed
 
 <br>
 
-## Adding a hozontal line
+## Extra Text
 ---
 
 <!--
@@ -71,7 +71,7 @@ Italicized text is the *cat's meow*.
 - Third item
 - Fourth item
 -->
-## Adding code block
+## Code block
 ```ruby
 def hello_world
   puts "Hello, World!"
@@ -93,15 +93,15 @@ console.log(x);
 
 ```
 
-## Adding external links
+## External links
 [Wikipedia](https://en.wikipedia.org)
 
 
-## Adding block quote
+## Block quote
 > A blockquote would look great if you need to highlight something
 
 
-## Adding table 
+## Table 
 
 | Header 1 | Header 2 |
 |----------|----------|
