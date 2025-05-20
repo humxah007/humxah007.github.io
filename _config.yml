@@ -7,31 +7,40 @@
 
 # Main Page Setup
 
-title: John Doe's Portfolio # This is what shows up in the tab of the browser
+title: M Hamza Khalid's Portfolio # This is what shows up in the tab of the browser
 
 
 
 # Hero Section
-name: John Doe
-headline: headline message
+name: M Hamza Khalid
+headline: Aerospace Engineer
 description: >- # dont remove this line. this will ignore all new lines until the next section
-  Write an awesome intro and discuss your highlights and qualification. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Hi, I’m Hamza – an Aerospace Engineer, who thrives on the possibility of turning great
+  ideas into a tangible technology. At my final year in the Institute of Space Technology,
+  my area of study centers around CAD modeling, aerodynamic  simulations and structural
+  analysis issues. I’ve worked on the problem of turning rotorcrafts into sustainable 
+  bicycles as well as operating models of Concorde for analysing supersonic flights and
+  so on, all breathing new life into creativity and engineering.
+
+  However, being an engineer skilled in CATIA, SolidWorks, ANSYS, MATLAB/Simulink, and 
+  QBlade, I deal with any job with understanding of technical processes and thinking 
+  from a creative perspective to solve any problem. I flourish on such a job as developing
+  new forms of propulsion, modeling control, or pushing tomorrow’s modes of transportation.
+
 
 # Place your profile image in /assets/images/profile-image/folder and edit the file name
-profile_image: ./assets/images/profile-image/avatar.jpeg
+profile_image: ./assets/images/profile-image/Hamza.jpg
 
 
 # Link your resume
 # You can place your resume in assets/resume/{resume file.pdf} or add external link such as pdf saved in google drive 
-resume-url: https://drive.google.com/file/d/13Z3duVzh-gguPU5r03oJVEE6rV9rd3DS/view?usp=sharing
+resume-url: ./assets/images/profile-image/CV.pdf
 
 
 # Set up external links - this will show up as small icons next to your name.
 
 external-links:    # input only your own url slug. The icons with missing entries will not appear.
-  linkedin: test    # https://www.linkedin.com/in/{your url slug} 
+  linkedin: https://www.linkedin.com/in/mhamzakhalid100
   github: leea12    # https://github.com/{your url slug} 
   stackoverflow: test      # https://stackoverflow.com/users/{your url slug}
   medium:            # https://medium.com/@{your url slug} 
@@ -45,95 +54,65 @@ external-links:    # input only your own url slug. The icons with missing entrie
 
 # Skills Section - Add the list of your Skills by categories/tools. The indentation for each level needs to be precise. 
 skills:
-  - category: 3D Modeling
+  - category: 3D Modeling & CAD
     tools:
-    - Onshape
-    - Solidworks
-    - Creo
-    - Fusion 360 (Autodesk)
-    - Blender (for complex shapes or animations)
-    - Siemens NX
-    - Inventor (Autodesk)
     - CATIA (Dassault Systèmes)
-  - category: Prototyping
+    - SolidWorks
+    - OpenVSP
+
+  - category: Simulation & Analysis
     tools:
-    - SLA
-    - CNC
-    - FDM
-    - SLS
-    - DMLS
-    - PolyJet Printing
-    - Vacuum Casting
-    - Laser Cutting
-    - Water Jet Cutting
-    - Arduino / Raspberry Pi
-    - Breadboarding for circuit testing
+    - ANSYS (CFD, CFX, FSI)
+    - MATLAB / Simulink
+    - XFoil / XFLR5
+    - QBlade / QProp
+    - Siemens STAR-CCM+
+    - CADFix
+
   - category: Design Standards / Practices
     tools:
-    - GD&T ASME Y14
-    - ISO fits and tolerances
-    - PLM (PTC Windchill / Arena)   
-  - category: PCB Design
+    - ISO fits & tolerances
+    - FAR / EASA 
+    - OSHA Safety Standards
+    - Root Cause Analysis (5 Whys, Fishbone)
+    - DFMEA / PFMEA
+    - Six Sigma
+
+  - category: Programming / Scripting
     tools:
-    - Altium Designer
-    - Altium
-    - Eagle 
-    - KiCad
-  - category: Problem Solving / Risk Management
+    - MATLAB
+    - Python
+    - CNC Coding
+    - Simulink
+
+  - category: Engineering Domains
     tools:
-    - Root Cause Analysis (e.g., 5 Whys, Fishbone Diagram)
-    - DFMEA / PFMEA 
-    - Six Sigma methodologies
-    - Shain Red-X
+    - Aerodynamics
+    - Propulsion
+    - Structures
+    - Control Systems / FDS / GNAV
+
+  - category: Soft Skills & Tools
+    tools:
+    - Team Collaboration 
+    - Time Management
+    - Presentation (Canva, SmartSlides)
+    - MS Office (Word, PowerPoint, Excel)
 
 
 # Contact Form Setup. Setup an account and copy over the key. When someone fills out the form, it will be received in your email.
-formspree-key:   https://formspree.io/f/{8-digit key}
+formspree-key:   https://formspree.io/f/movdkvor
 
 
 
 # Active theme (Updatethis to switch themes). Make sure to keep the indentation the samne.
-colors: # this is the basic theme
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-
-# A few examples. 
-basic theme:
-  text: "#1a1c20"
-  border: "#ddd"
-  link: "#4a76ee"
-  highlight: "#0c0cf2"
-  background: "#ffffff"
-  light_background: "#f3f5fb"
-  
-  mint theme:
-  text: "#2c3333"
-  border: "#e0f2ef"
-  link: "#40b3a2"
-  highlight: "#2a9d8f"
-  background: "#f7fbfa"
-  light_background: "#f0f9f7"
-  
-lemon theme:
-  text: "#2d2926"
-  border: "#f7f3e3"
-  link: "#ffc94d"
-  highlight: "#ffb800"
-  background: "#fffdf5"
-  light_background: "#fff9e6"
-  
-  pink theme:
-  text: "#2d2d2d"
-  border: "#f8e2e2"
-  link: "#ff8fa3"
-  highlight: "#ff4d6d"
-  background: "#fff8f8"
-  light_background: "#fff5f6"
-
+colors:
+  text: "#FFFFFF"             # White text for readability
+  border: "#444444"           # Subtle borders
+  link: "#00C3FF"             # Bright cyan for links (spacey look)
+  highlight: "#FF6347"        # Bright coral for highlighted text
+  background: "#1E1E1E"       # Dark background (space grey)
+  light_background: "#2D2D2D" # Slightly lighter background for sections
 
 
 
