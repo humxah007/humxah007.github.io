@@ -465,7 +465,8 @@ nav .mobile-nav {
     color:var(--text-color)
 }
 
-.contact-section .group form input, .contact-section .group form textarea {
+.contact-section .group form input, 
+.contact-section .group form textarea {
     font-family: 'Poppins', sans-serif;
     background-color: transparent;
     border: 1px groove var(--text-color);
@@ -474,7 +475,12 @@ nav .mobile-nav {
     outline: none;
     resize: none;
     font-size: 13px;
-    
+    color: #d3d3d3;   /* Added this line for text color */
+}
+
+/* Optional: Add placeholder color */
+.contact-section .group form ::placeholder {
+    color: #a0a0a0; /* Grey placeholder text */
 }
 
 .contact-section .group form button {
