@@ -10,13 +10,36 @@
   enctype="multipart/form-data"
 >
   <label for="name">Name</label>
-  <input type="text" id="name" name="name"> <!-- Added name="name" -->
+  <input 
+    type="text" 
+    id="name" 
+    name="name" 
+    required
+    minlength="2"
+    pattern="[A-Za-z ]+"
+    title="Only letters and spaces allowed"
+  >
 
   <label for="email">Email</label>
-  <input type="email" id="email" name="email">
+  <input 
+    type="email" 
+    id="email" 
+    name="email" 
+    required
+    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+    title="Valid email format: name@domain.com"
+  >
 
   <label for="message">Message</label>
-  <textarea id="message" cols="30" rows="10" name="message"></textarea>
+  <textarea 
+    id="message" 
+    cols="30" 
+    rows="10" 
+    name="message" 
+    required
+    minlength="10"
+    title="Message must be at least 10 characters"
+  ></textarea>
 
   <button type="submit">Send Message</button>
 </form>
