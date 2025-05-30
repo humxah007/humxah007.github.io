@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Aircraft Performance Analysis - Cessna 172 Skyhawk
