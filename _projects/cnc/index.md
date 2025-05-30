@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: CNC Programming of English Letters 'H', 'A', 'B' on a Square Plate
