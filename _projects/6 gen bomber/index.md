@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 6th Generation Delta-Flying Wing Bomber Design using OpenVSP and CATIA V5
