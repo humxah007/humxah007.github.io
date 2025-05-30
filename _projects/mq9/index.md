@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Aerovehicle Design: Unmanned Combat Aerial Vehicle (UCAV)
