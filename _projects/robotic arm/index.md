@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 6-Axis Robotic Arm Design in CATIA V5
