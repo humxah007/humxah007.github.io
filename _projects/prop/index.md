@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Propeller Design and Rendering on CATIA V5
