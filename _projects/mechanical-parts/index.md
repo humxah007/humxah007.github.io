@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Mechanical Parts (Gear & Twisted Part) Design and Rendering on CATIA V5
