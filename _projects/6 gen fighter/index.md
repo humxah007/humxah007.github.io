@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: 6th Generation Delta Wing Fighter Jet Design using OpenVSP and CATIA V5
