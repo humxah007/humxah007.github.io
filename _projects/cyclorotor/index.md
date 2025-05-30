@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Cyclorotor / Vertical Axis Wind Turbine Design and Rendering in CATIA V5
