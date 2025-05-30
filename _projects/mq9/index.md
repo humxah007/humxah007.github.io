@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Aerovehicle Design: Unmanned Combat Aerial Vehicle (UCAV)
+title: "Aerovehicle Design: Unmanned Combat Aerial Vehicle (UCAV)"
 description: Designed a UCAV based on MQ-9 Reaper with focus on endurance, stealth, and payload delivery. Meets military-grade specifications through strategic aerodynamic and propulsion design.
 skills: 
   - Aircraft conceptual design
