@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Long-Range Surveillance Aircraft with Inverted Tail
