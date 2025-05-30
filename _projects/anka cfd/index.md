@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: CFD Aerodynamic Validation - ANKA-3 Flying Wing UAV
