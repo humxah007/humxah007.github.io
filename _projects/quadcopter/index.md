@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Quadcopter with Integrated Camera – Design and Rendering in CATIA V5
