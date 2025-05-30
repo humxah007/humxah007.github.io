@@ -9,7 +9,7 @@ skills:
   - Mechanical Design & Drafting
   - Motion Simulation Preparation
   - Industrial Robotics Fundamentals
-main-image: /_projects/robotic-arm/images/main-view.jpg
+main-image: /_projects/robotic arm/images/profile.jpg
 ---
 
 ### Detailed Description
@@ -30,11 +30,11 @@ The successful design of a fully articulated 6-axis robotic arm model in CATIA V
 * Incorporation of sensors and actuators for control system testing
 
 ### Robotic Arm Views
-{% include image-gallery.html images="/_projects/robotic-arm/images/iso-view.jpg, /_projects/robotic-arm/images/front-view.jpg, /_projects/robotic-arm/images/top-view.jpg, /_projects/robotic-arm/images/side-view.jpg" height="400"%}
+{% include image-gallery.html images="/_projects/robotic arm/images/iso.jpg, /_projects/robotic arm/images/front.jpg, /_projects/robotic arm/images/top.jpg, /_projects/robotic arm/images/side.jpg" height="400"%}
 <span style="font-size: 10px">Isometric, Front, Top, and Side Views of the 6-Axis Robotic Arm</span>  
 
 ### Operation Demonstration
-{% include youtube-video.html id="YOUTUBE_VIDEO_ID_HERE" autoplay="false" %}
+{% include youtube-video.html id="YMK1awmsUYaZWDXL" autoplay="false" %}
 
 ### Quote
 > *"Robotics is not just about building machines; it's about engineering intelligent systems to extend human capability."*
