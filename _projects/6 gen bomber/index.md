@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 6th Generation Delta-Flying Wing Bomber Design using OpenVSP and CATIA V5
+title: 6th Generation Delta Flying-Wing Bomber Design using OpenVSP and CATIA V5
 description: Conceptualized a stealth bomber with delta-flying wing configuration using OpenVSP for aerodynamic design and CATIA V5 for detailed 3D modeling, emphasizing low observability and long-range capabilities.
 skills: 
   - Advanced aircraft design principles
