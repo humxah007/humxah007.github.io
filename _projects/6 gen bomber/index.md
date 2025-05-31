@@ -9,7 +9,7 @@ skills:
   - Knowledge of stealth technology
   - Flying wing aerodynamics
 
-main-image: /_projects/6 gen bomber/pictures/profile.jpg
+main-image: /assets/images/profile-images/profile.jpg
 ---
 
 ## Detailed Description
