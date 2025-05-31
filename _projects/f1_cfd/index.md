@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: CFD of F1 Car Using ANSYS Fluent at 350 m/s
