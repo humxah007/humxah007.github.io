@@ -38,7 +38,10 @@ Project aligns with **UN SDGs 8, 9, and 17**, promoting sustainable innovation i
 
 ## Mechanism Demonstration
 ### Conversion Sequence
-{% include local-video.html file="/_projects/hybrid-rotorcraft/images/conversion-mechanism.mp4" %}
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/hybrid-rotorcraft/images/conversion-mechanism.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 <br>
 
@@ -48,6 +51,7 @@ Project aligns with **UN SDGs 8, 9, and 17**, promoting sustainable innovation i
 [T-Motor U15 – Datasheet](https://store.tmotor.com/goods.php?id=1083)
 
 ## Performance Specifications
+
 | **Specification** | **Flight Mode**       | **Bicycle Mode**            |
 | ----------------- | --------------------- | --------------------------- |
 | Max Speed         | 102 km/h              | 25 km/h                     |
