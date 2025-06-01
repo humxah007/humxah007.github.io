@@ -28,7 +28,7 @@ This simulation project involved importing an F1 car model into ANSYS Fluent and
 <span style="font-size: 10px">Isometric view of flow streamlines showing wake formation</span>  
 
 ### Aerodynamic Specialization in F1 Cars
-{% include youtube-video.html id="JuEvK-zCqio" autoplay="false"%}
+{% include youtube-video.html id="SSdsncLXLYs" autoplay="false"%}
 <span style="font-size: 10px">Key aerodynamic features of Formula 1 vehicles</span>
 
 ## Conclusion
