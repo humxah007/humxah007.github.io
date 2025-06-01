@@ -7,6 +7,7 @@ skills:
   - 3D part and assembly modeling
   - CATIA V5 surface modeling
   - Rendering and visualization
+    
 main-image: /profile.jpg
 ---
 
