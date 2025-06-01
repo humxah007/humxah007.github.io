@@ -25,12 +25,14 @@ The design achieved a balance between stealth, range, and payload capacity, demo
 {% include image-gallery.html images="/_projects/6_gen_bomber/pictures/iso.jpg, /_projects/6_gen_bomber/pictures/front.jpg, /_projects/6_gen_bomber/pictures/top.jpg, /_projects/6_gen_bomber/pictures/side.jpg" height="400"%}
 <span style="font-size: 10px">Orthographic projections: Isometric, Front, Top, and Side views</span>  
 
-### Flight Demonstration
-{% include local-video.html file="/_projects/6_gen_bomber/pictures/6gen_bomb.mp4" %}
-*Autoplaying flight simulation video (looped)*
+## Flight Simulation
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/6_gen_bomber/pictures/6gen_bomb.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 > "Invisibility in the skies is achieved not just by technology, but by design."
-> <footer>Stealth Aircraft Design Philosophy</footer>
+> — Stealth Aircraft Design Philosophy
 
 ## External Links
 - [OpenVSP Official Website](https://openvsp.org/)
