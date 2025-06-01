@@ -40,6 +40,7 @@ The design achieved a balance between stealth, range, and payload capacity, demo
 - [NASA OpenVSP Training Resources](https://vspu.larc.nasa.gov/)
 
 ## Technical Specifications
+
 | Characteristic | Specification |
 |----------------|---------------|
 | **Configuration** | Blended delta flying wing |
