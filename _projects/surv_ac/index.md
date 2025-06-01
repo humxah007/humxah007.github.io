@@ -33,7 +33,7 @@ Demonstrated advanced aircraft configuration skills and the ability to merge con
 ## Embedding Videos
 ### Flight Simulation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/surv_ac/pictures/flying.mp4" type="video/mp4">
+  <source src="/_projects/surv_ac/pictures/fly.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
