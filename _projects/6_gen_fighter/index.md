@@ -28,7 +28,7 @@ The project successfully demonstrated the integration of aerodynamic modeling an
 
 ## Flight Simulation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/6_gen_fighter/videoss/6gen.mp4" type="video/mp4">
+  <source src="/_projects/6_gen_fighter/videos/gen.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
