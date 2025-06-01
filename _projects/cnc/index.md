@@ -7,7 +7,8 @@ skills:
   - Machining operations and clamping requirements
   - Font design adaptation for CNC
   - Precision engraving techniques
-main-image: /profile.jpg  <!-- Main header image path -->
+
+main-image: /profile.jpg  
 ---
 
 # Detailed Description
