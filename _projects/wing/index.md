@@ -7,7 +7,7 @@ skills:
   - Aerodynamic shaping
   - CATIA surface modeling
   - Multi-view rendering
-main-image: /_projects/wing/pictures/profile.jpg  <!-- Update path -->
+main-image: /profile.jpg  <!-- Update path -->
 ---
 
 # Detailed Description
@@ -20,7 +20,7 @@ Reflected a deep understanding of high-speed aerodynamics through precise CAD mo
 
 ## Wing Design Visualization
 ### Orthographic Views
-{% include image-gallery.html images="/_projects/wing/pictures/top.jpg, /_projects/wing/pictures/iso.jpg, /_projects/wing/pictures/side.jpg" height="400"%}
+{% include image-gallery.html images="/top.jpg, /iso.jpg, /side.jpg" height="400"%}
 <span style="font-size: 10px">Top, Isometric, and Side views of swept-wing design showing airfoil progression</span>  
 
 ## Aerodynamic Principles
