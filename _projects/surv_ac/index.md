@@ -7,7 +7,7 @@ skills:
   - Inverted tail configuration analysis
   - OpenVSP modeling
   - CATIA V5 rendering and assembly
-main-image: /_projects/surv_ac/pictures/profile.jpg  <!-- Replace with your main image path -->
+main-image: /profile.jpg  <!-- Replace with your main image path -->
 ---
 
 # Detailed Description
@@ -27,13 +27,13 @@ Demonstrated advanced aircraft configuration skills and the ability to merge con
 
 ## Embedding Images 
 ### Aircraft Design Views
-{% include image-gallery.html images="/_projects/surv_ac/pictures/front.jpg, /_projects/surv_ac/pictures/iso.jpg, /_projects/surv_ac/pictures/side.jpg, /_projects/surv_ac/pictures/top.jpg" height="400"%}
+{% include image-gallery.html images="/front.jpg, /iso.jpg, /side.jpg, /top.jpg" height="400"%}
 <span style="font-size: 10px">Front, Isometric, Side and Top views of surveillance aircraft</span>  
 
 ## Embedding Videos
 ### Flight Simulation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/surv_ac/pictures/fly.mp4" type="video/mp4">
+  <source src="/fly.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
