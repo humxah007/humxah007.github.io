@@ -8,7 +8,7 @@ skills:
   - Helical and twisted geometry modeling
   - Rendering in CATIA V5
 
-main-image: /proflie.jpg  
+main-image: /profile.jpg 
 ---
 
 ## Detailed Description
