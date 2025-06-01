@@ -39,7 +39,7 @@ Project aligns with **UN SDGs 8, 9, and 17**, promoting sustainable innovation i
 ## Mechanism Demonstration
 ### Conversion Sequence
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/hybrid-rotorcraft/images/conversion-mechanism.mp4" type="video/mp4">
+  <source src="/_projects/hybrid-rotorcraft/images/simulation.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
