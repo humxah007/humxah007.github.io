@@ -35,11 +35,11 @@ Stress concentrations were notably higher at the junctions where the arms meet t
 
 ### Deformation and Stress Animation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/quadcopter-fea/pictures/total_def.mp4" type="video/mp4">
+  <source src="/_projects/quadcopter-fea/pictures/def.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/quadcopter-fea/pictures/equiv_stress.mp4" type="video/mp4">
+  <source src="/_projects/quadcopter-fea/pictures/stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
