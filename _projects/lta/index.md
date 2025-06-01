@@ -1,5 +1,4 @@
-
----
+<img width="783" alt="image" src="https://github.com/user-attachments/assets/5e6fade6-6b9a-4668-8875-5aa4b100f976" /><img width="783" alt="image" src="https://github.com/user-attachments/assets/87889540-ae70-4b41-b29d-765c329ff1ea" />---
 layout: post
 title: Design and Fabrication of a Lighter-than-Air Vehicle (LTAV)
 description: Fabricated a small-scale LTAV using balsa wood, epoxy, and DC motors for indoor hovering and directional control.
@@ -8,7 +7,7 @@ skills:
   - Material selection (balsa, epoxy, sand reinforcement)
   - Structural design and load balancing
   - DC motor control and wiring
-main-image: /_projects/lta/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -23,9 +22,16 @@ This project combined principles of buoyancy, lightweight structure design, and 
 
 ## Project Media
 ### Fabrication and Testing Videos
-{% include local-video.html file="/_projects/lta/pictures/one.mp4" %}
-{% include local-video.html file="/_projects/project15/videos/two.mp4" %}
-<span style="font-size: 10px">Left: Assembly process | Right: Indoor hover test</span>  
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/lta/pictures/one.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/lta/pictures/two.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 
 ## External Links
 [NASA Balloon Research](https://www.nasa.gov/scientificballoons/)  
