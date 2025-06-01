@@ -22,11 +22,12 @@ The project focused on quantifying lift (Cl) and drag (Cd) coefficients, underst
 ## Analysis
 The analysis revealed clear aerodynamic trends in the ANKA-3 UAV's behavior across the tested AoA spectrum.
 
-* At **3° AoA**, the aircraft achieved peak aerodynamic efficiency with attached flow and minimal drag.
-* As AoA increased beyond **6°**, significant flow separation was detected, particularly at the wingtips, leading to a 27% increase in drag.
-* The k-omega SST model consistently delivered lift and drag values with high accuracy, maintaining deviation within ±5% compared to experimental data.
+ At **3° AoA**, the aircraft achieved peak aerodynamic efficiency with attached flow and minimal drag.
+ As AoA increased beyond **6°**, significant flow separation was detected, particularly at the wingtips, leading to a 27% increase in drag.
+ The k-omega SST model consistently delivered lift and drag values with high accuracy, maintaining deviation within ±5% compared to experimental data.
 
 ### Comparison of Simulated vs. Validated Aerodynamic Coefficients
+
 | **Angle of Attack (AoA)** | **Lift Coefficient (Cl)** | **Cl Deviation** | **Drag Coefficient (Cd)** | **Cd Deviation** |
 | ------------------------- | ------------------------- | ---------------- | ------------------------- | ---------------- |
 | 0°                        | 0.08                      | +3.2%            | 0.022                     | -1.8%            |
