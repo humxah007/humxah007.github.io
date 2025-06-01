@@ -7,7 +7,7 @@ skills:
   - Gear profile creation
   - Helical and twisted geometry modeling
   - Rendering in CATIA V5
-main-image: /_projects/mechanical-parts/pictures/proflie.jpg  <!-- Update path -->
+main-image: /proflie.jpg  <!-- Update path -->
 ---
 
 ## Detailed Description
@@ -17,11 +17,11 @@ This project consisted of designing individual mechanical components including a
 Developed realistic mechanical parts showcasing a strong grip on mechanical CAD tools and design for manufacturability.
 
 ## Gear Design Visualizations
-{% include image-gallery.html images="/_projects/mechanical-parts/pictures/gear_front.jpg, /_projects/mechanical-parts/pictures/gear_iso.jpg, /_projects/mechanical-parts/pictures/gear_top.jpg" height="350"%}
+{% include image-gallery.html images="/gear_front.jpg, /gear_iso.jpg, /gear_top.jpg" height="350"%}
 <span style="font-size: 10px">Spur gear design with precise tooth profile parameters</span>  
 
 ## Twisted Part Visualizations
-{% include image-gallery.html images="/_projects/mechanical-parts/pictures/twist_front.jpg, /_projects/mechanical-parts/pictures/twist_iso.jpg, /_projects/mechanical-parts/pictures/twist_top.jpg, /_projects/mechanical-parts/pictures/twist_side.jpg" height="350"%}
+{% include image-gallery.html images="/twist_front.jpg, /twist_iso.jpg, /twist_top.jpg, /twist_side.jpg" height="350"%}
 <span style="font-size: 10px">Multi-axis twisted part demonstrating surface modeling capabilities</span>  
 
 ## Quote
