@@ -22,7 +22,7 @@ This project combined principles of buoyancy, lightweight structure design, and 
 
 ## Project Media
 ### Fabrication and Testing Videos
-<video autoplay loop muted playsinline controls width="40%">
+<video autoplay loop muted playsinline controls width="100%">
   <source src="/_projects/lta/pictures/assembly.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
