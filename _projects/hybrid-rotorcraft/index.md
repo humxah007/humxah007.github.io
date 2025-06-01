@@ -12,7 +12,7 @@ skills:
   - Kinematic Linkage Design
   - Material Selection (CFRP, Al 7075-T6)
   - Structural & System-Level Optimization
-main-image: /_projects/hybrid-rotorcraft/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -33,7 +33,7 @@ Project aligns with **UN SDGs 8, 9, and 17**, promoting sustainable innovation i
 
 ## Design Visualizations
 ### Isometric Views
-{% include image-gallery.html images="/_projects/hybrid-rotorcraft/pictures/bike-iso.jpg, /_projects/hybrid-rotorcraft/pictures/drone-iso.jpg" height="400"%}
+{% include image-gallery.html images="/bike-iso.jpg, /drone-iso.jpg" height="400"%}
 <span style="font-size: 10px">Isometric views of bicycle and rotorcraft configurations</span>  
 
 ## Mechanism Demonstration
