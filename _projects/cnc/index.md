@@ -27,7 +27,7 @@ Successfully demonstrated the ability to program complex and simple font styles 
 {% include local-video.html file="/_projects/cnc/pictures/hab_hp.mp4" %}
 
 > "Precision in machining is not just about cutting metal; it's about crafting ideas into tangible forms."
-> <footer>— CNC Machining Insight</footer>
+> — CNC Machining Insight
 
 ## External Links
 [Mitsubishi Electric CNC Programming Guide](https://www.mitsubishielectric.com/fa/service-support/global/e-learning/pdf/eng/7-CNC_Programming_For_MC_na_eng.pdf)  
