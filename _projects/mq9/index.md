@@ -28,9 +28,9 @@ The configuration used a turboprop engine in a rear-mounted pusher layout to red
 {% include image-gallery.html images="/_projects/mq9/pictures/front.jpg, /_projects/mq9/pictures/side.jpg, /_projects/mq9/pictures/top.jpg, /_projects/mq9/pictures/back.jpg, /_projects/mq9/pictures/iso.jpg" height="300"%}
 <span style="font-size: 10px">Front, side, top, back, and isometric views of UCAV design</span>  
 
-* **Propulsion Placement:** Aft-mounted propeller reduced heat and radar signatures
-* **Material Optimization:** Stealth composites and angled geometry for signature suppression
-* **Flight Envelope:** All mission phases modeled with validated performance parameters
+ **Propulsion Placement:** Aft-mounted propeller reduced heat and radar signatures
+ **Material Optimization:** Stealth composites and angled geometry for signature suppression
+ **Flight Envelope:** All mission phases modeled with validated performance parameters
 
 ### MQ9 Reaper
 {% include youtube-video.html id="LeIdy6uwYpI" autoplay= "false"%}
@@ -39,9 +39,9 @@ The configuration used a turboprop engine in a rear-mounted pusher layout to red
 Successfully delivered a viable combat drone concept with proven mission flexibility and performance. The project met all performance benchmarks while integrating stealth and payload systems, confirming the UAV's effectiveness in modern warfare scenarios.
 
 ## Additional Text
-* Considered runway clearance delays through loiter hold logic
-* Weight estimation followed Raymer's and Roskam’s methods
-* Modular payload system for ISR/offensive mission flexibility
+ Considered runway clearance delays through loiter hold logic
+ Weight estimation followed Raymer's and Roskam’s methods
+ Modular payload system for ISR/offensive mission flexibility
 
 > *"The devil is in the details, but so is salvation."*  
 > — **Daniel Raymer**, *Aircraft Design: A Conceptual Approach*
@@ -51,6 +51,7 @@ Successfully delivered a viable combat drone concept with proven mission flexibi
 [FAA UAV Design Guidelines](https://www.faa.gov/uas)
 
 ## Performance Specifications
+
 | Parameter        | Value                 |
 |------------------|-----------------------|
 | **Wingspan**     | 66.29 ft             |
