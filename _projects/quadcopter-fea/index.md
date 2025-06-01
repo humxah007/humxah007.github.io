@@ -10,7 +10,7 @@ skills:
   - Structural Load Application & Boundary Conditions
   - Interpretation of Stress-Strain Results
   - Design Optimization for Weight and Strength
-main-image: /_projects/quadcopter-fea/pictures/profile.jpg  <!-- Update path to your main profile image -->
+main-image: /_projects/quadcopter-fea/profile.jpg  <!-- Update path to your main profile image -->
 ---
 
 # Detailed Description
@@ -30,16 +30,16 @@ Static structural analysis revealed maximum von Mises stress levels well below t
 Stress concentrations were notably higher at the junctions where the arms meet the central body and motor mounts, guiding design refinements including local filleting and thickness increase. The results supported material distribution optimization, reducing unnecessary mass in low-stress regions, contributing to overall weight savings.
 
 ### Simulation Results Visualization
-{% include image-gallery.html images="/_projects/quadcopter-fea/pictures/equiv_stress.jpg, /_projects/quadcopter-fea/pictures/safety_factor.jpg, /_projects/quadcopter-fea/pictures/total_deform.jpg" height="400"%}
+{% include image-gallery.html images="/_projects/quadcopter-fea/equiv_stress.jpg, /_projects/quadcopter-fea/safety_factor.jpg, /_projects/quadcopter-fea/total_deform.jpg" height="400"%}
 <span style="font-size: 10px">Figure: Equivalent stress, safety factor, and total deformation results from ANSYS simulation</span>
 
 ### Deformation and Stress Animation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/quadcopter-fea/pictures/def.mp4" type="video/mp4">
+  <source src="/_projects/quadcopter-fea/def.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/quadcopter-fea/pictures/stress.mp4" type="video/mp4">
+  <source src="/_projects/quadcopter-fea/stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
