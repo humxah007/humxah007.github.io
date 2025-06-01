@@ -14,13 +14,13 @@ main-image: /_projects/cessna/pictures/profile.jpg
 ---
 
 ## Detailed Description
-This project conducted a full-spectrum performance analysis of the Cessna 172S Skyhawk trainer aircraft:
+This project conducted a full-spectrum performance analysis of the Cessna 172S Skyhawk trainer aircraft
 
-1. **Unaccelerated Flight:**
-   * Derived thrust/power required curves using drag polar $C_D = 0.0341 + 0.0292C_L^2$
-   * Calculated max L/D ratio (17.47 @ 864 ft/s), stall speed (86.8 ft/s SL), and climb performance (24.2 ft/s ROC at SL)
+1. Unaccelerated Flight:
+   Derived thrust/power required curves using drag polar $C_D = 0.0341 + 0.0292C_L^2$
+   Calculated max L/D ratio (17.47 @ 864 ft/s), stall speed (86.8 ft/s SL), and climb performance (24.2 ft/s ROC at SL)
    
-2. **Accelerated Flight:**
+2. **Accelerated Flight**
    * Determined turn performance (679 ft min radius, 16°/s max rate)
    * Modeled range (1,185 km) and endurance (4.5 hrs) with specific fuel consumption
    
@@ -28,7 +28,7 @@ This project conducted a full-spectrum performance analysis of the Cessna 172S S
    * Takeoff distance: 834 ft (ground roll + airborne)
    * Landing distance: 813 ft (approach-to-ground roll)
    
-4. **Validation:** Compared results against factory specs, identifying error sources (e.g., 28% thrust deviation due to drag polar assumptions)
+**Validation:** Compared results against factory specs, identifying error sources (e.g., 28% thrust deviation due to drag polar assumptions)
 
 ## Analysis
 The performance metrics were benchmarked against actual aircraft data to validate computational methods.
@@ -49,7 +49,7 @@ The performance metrics were benchmarked against actual aircraft data to validat
 <span style="font-size: 10px">Wing geometry analysis: Isometric, side and top views</span>
 
 ### Flight Demonstration
-{% include youtube-video.html id="DvCv2SuKCE8" autoplay="false" %}
+{% include youtube-video.html id="eSUCLceZUjY" autoplay="false" %}
 
 ## Conclusion
 The analysis confirmed the Cessna 172's exceptional training suitability—forgiving stall characteristics, stable low-speed handling, and predictable performance. Discrepancies versus factory data (≤28% error) stemmed from simplified drag modeling and constant-efficiency assumptions. Validated methodologies provide a framework for piston-aircraft performance optimization.
