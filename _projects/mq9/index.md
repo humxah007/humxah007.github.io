@@ -15,7 +15,7 @@ main-image: /mq9.jpg
 ---
 
 ### Design Process
-{% include image-gallery.html images="/design-process.jpg" height="500"%}
+{% include image-gallery.html images="/design_process.jpg" height="500"%}
 <span style="font-size: 10px">UCAV design methodology from concept to final configuration</span>  
 
 ## Detailed Description
@@ -25,7 +25,7 @@ The configuration used a turboprop engine in a rear-mounted pusher layout to red
 
 ## Analysis
 ### Orthographic Views
-{% include image-gallery.html images="/front.jpg, /side.jpg, /top.jpg, /back.jpg, +iso.jpg" height="300"%}
+{% include image-gallery.html images="/front.jpg, /side.jpg, /top.jpg, /back.jpg, /iso.jpg" height="300"%}
 <span style="font-size: 10px">Front, side, top, back, and isometric views of UCAV design</span>  
 
  **Propulsion Placement:** Aft-mounted propeller reduced heat and radar signatures
