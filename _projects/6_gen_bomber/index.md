@@ -9,7 +9,7 @@ skills:
   - Knowledge of stealth technology
   - Flying wing aerodynamics
 
-main-image: /assets/images/profile-images/profile.jpg
+main-image: /_projects/6_gen_bomber/pictures/profile.jpg
 ---
 
 ## Detailed Description
@@ -22,11 +22,11 @@ The flying wing configuration was analyzed for its aerodynamic benefits, includi
 The design achieved a balance between stealth, range, and payload capacity, demonstrating the viability of a delta-flying wing configuration for future bomber aircraft.
 
 ### Design Views
-{% include image-gallery.html images="/_projects/6 gen bomber/pictures/iso.jpg, //_projects/6 gen bomber/pictures/front.jpg, /_projects/6 gen bomber/pictures/top.jpg, /_projects/6 gen bomber/pictures/side.jpg" height="400"%}
+{% include image-gallery.html images="/_projects/6_gen_bomber/pictures/iso.jpg, /_projects/6_gen_bomber/pictures/front.jpg, /_projects/6_gen_bomber/pictures/top.jpg, /_projects/6_gen_bomber/pictures/side.jpg" height="400"%}
 <span style="font-size: 10px">Orthographic projections: Isometric, Front, Top, and Side views</span>  
 
 ### Flight Demonstration
-{% include local-video.html file="/_projects/6 gen bomber/pictures/6gen_bomb.mp4" %}
+{% include local-video.html file="/_projects/6_gen_bomber/pictures/6gen_bomb.mp4" %}
 *Autoplaying flight simulation video (looped)*
 
 > "Invisibility in the skies is achieved not just by technology, but by design."
