@@ -7,7 +7,7 @@ skills:
   - Surface and part modeling in CATIA V5
   - Aerodynamic consideration in motorsport design
   - Rendering and visualization
-main-image: /_projects/f1/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -17,7 +17,7 @@ This project involved creating a 3D model of a Formula 1 car with an emphasis on
 Achieved a high-fidelity 3D visualization of an F1 car that demonstrates solid understanding of motorsport design parameters and CAD proficiency.
 
 ## Design Views
-{% include image-gallery.html images="/_projects/f1/pictures/iso.jpg, /_projects/f1/pictures/top.jpg, /_projects/f1/pictures/front.jpg, /_projects/f1/pictures/side.jpg" height="400"%}
+{% include image-gallery.html images="/isos.jpg, /top.jpg, /front.jpg, /side.jpg" height="400"%}
 <span style="font-size: 10px">Isometric, Top, Front, and Side views of the F1 car design</span>  
 
 ## F1 Overview
