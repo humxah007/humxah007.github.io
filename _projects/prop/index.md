@@ -7,7 +7,7 @@ skills:
   - Airfoil profile modeling
   - Rotational part assembly in CATIA V5
   - Rendering
-main-image: /_projects/prop/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -17,7 +17,7 @@ The propeller was designed using airfoil cross-sections and twisted blade geomet
 Demonstrated ability to design rotating aerodynamic components with precision and visualization using CATIA V5.
 
 ### Propeller Views
-{% include image-gallery.html images="/_projects/prop/pictures/front.jpg, /_projects/prop/pictures/iso.jpg, /_projects/prop/pictures/side.jpg, /_projects/prop/pictures/top.jpg" height="400" %}
+{% include image-gallery.html images="/front.jpg, /iso.jpg, /side.jpg, /top.jpg" height="400" %}
 <span style="font-size: 10px">Front, Isometric, Side, and Top views of the designed propeller</span>
 
 ### Propeller Working Process
