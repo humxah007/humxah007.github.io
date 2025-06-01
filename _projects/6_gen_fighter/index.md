@@ -23,7 +23,7 @@ Aerodynamic analysis focused on achieving supercruise capabilities and high mane
 The project successfully demonstrated the integration of aerodynamic modeling and detailed CAD rendering to conceptualize a 6th-generation fighter jet. The design balances stealth, speed, and agility, serving as a foundation for further development and simulation.
 
 ## Design Views
-{% include image-gallery.html images="/iso.jpg, /front.jpg, /top.jpg, /side.jpg" height="400"%}
+{% include image-gallery.html images="/iso.jpg, /front.jpg, top.jpg, /side.jpg" height="400"%}
 <span style="font-size: 10px">Isometric, Front, Top, and Side views of the fighter jet design</span>
 
 ## Flight Simulation
