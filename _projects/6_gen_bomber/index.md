@@ -9,7 +9,7 @@ skills:
   - Knowledge of stealth technology
   - Flying wing aerodynamics
 
-main-image: pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 ## Detailed Description
