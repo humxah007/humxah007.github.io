@@ -8,7 +8,7 @@ skills:
   - Symmetry and periodic arrangement
   - Renewable energy application modeling
 
-main-image: /_projects/cyclorotor/pictures/profile.jpg  <!-- Update path -->
+main-image: /profile.jpg  <!-- Update path -->
 ---
 
 # Detailed Description
@@ -16,7 +16,7 @@ This project explored the design of a VAWT using cyclorotor principles. The roto
 
 ## Analysis
 ### Cyclorotor Module Views
-{% include image-gallery.html images="/_projects/cyclorotor/pictures/iso.jpg, /_projects/cyclorotor/pictures/top.jpg" height="400"%}
+{% include image-gallery.html images="/iso.jpg, /top.jpg" height="400"%}
 <span style="font-size: 10px">Isometric and top views of the cyclorotor VAWT</span>
 
 ### Application Demonstration
