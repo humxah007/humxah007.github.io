@@ -9,7 +9,7 @@ skills:
   - Environmental monitoring
   - Data processing
   - Real-time display
-main-image: /_projects/humidity-sensing/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -24,11 +24,11 @@ The DHT11 sensor's resistance-based humidity measurement was verified through re
 This project demonstrates the successful use of Arduino and sensor integration for real-time humidity and temperature monitoring. The experiment proves useful in educational, experimental, and basic environmental sensing applications.
 
 ## Project Components
-{% include image-gallery.html images="/_projects/humidity-sensing/pictures/arduino.jpg, /_projects/humidity-sensing/pictures/sensor.jpg, /_projects/humidity-sensing/pictures/wires.jpg" height="300"%}
+{% include image-gallery.html images="/arduino.jpg, /sensor.jpg, /wires.jpg" height="300"%}
 <span style="font-size: 10px">Arduino board, DHT11 sensor, and wiring connections</span>  
 
 ## Circuit Setup
-{% include image-gallery.html images="/_projects/humidity-sensing/pictures/connection.jpg" height="400"%}
+{% include image-gallery.html images="/connection.jpg" height="400"%}
 <span style="font-size: 10px">Complete circuit diagram and physical implementation</span>  
 
 ## Demonstration Video
