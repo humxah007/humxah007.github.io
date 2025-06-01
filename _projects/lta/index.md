@@ -1,4 +1,4 @@
-<img width="783" alt="image" src="https://github.com/user-attachments/assets/5e6fade6-6b9a-4668-8875-5aa4b100f976" /><img width="783" alt="image" src="https://github.com/user-attachments/assets/87889540-ae70-4b41-b29d-765c329ff1ea" />---
+---
 layout: post
 title: Design and Fabrication of a Lighter-than-Air Vehicle (LTAV)
 description: Fabricated a small-scale LTAV using balsa wood, epoxy, and DC motors for indoor hovering and directional control.
