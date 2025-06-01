@@ -8,10 +8,10 @@ skills:
   - Symmetry and periodic arrangement
   - Renewable energy application modeling
 
-main-image: /profile.jpg  <!-- Update path -->
+main-image: /profile.jpg
 ---
 
-# Detailed Description
+## Detailed Description
 This project explored the design of a VAWT using cyclorotor principles. The rotor blades were arranged vertically around a central hub and mounted on pivot arms for dynamic blade pitching. The design enables omnidirectional wind capture and better torque generation in urban environments. CATIA was used for both design and photorealistic rendering.
 
 ## Analysis
