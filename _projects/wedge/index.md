@@ -19,10 +19,14 @@ In this CFD project, a wedge airfoil was simulated under hypersonic conditions a
 <span style="font-size: 10px">Top-left: Mach number contour • Top-right: Pressure distribution • Bottom-left: Velocity vectors • Bottom-right: Streamline pattern</span>  
 
 ## Key Observations:
-- Oblique shock angle measured at 32.4° (theoretical: 31.8°)
-- Post-shock temperature reached 1200K at leading edge
-- Pressure ratio across shock: 12.8 (vs theoretical 12.3)
-- Boundary layer separation observed at 15° deflection angle
+
+ Oblique shock angle measured at 32.4° (theoretical: 31.8°)
+
+ Post-shock temperature reached 1200K at leading edge
+
+ Pressure ratio across shock: 12.8 (vs theoretical 12.3)
+
+ Boundary layer separation observed at 15° deflection angle
 
 # Conclusion
 The project reinforced understanding of hypersonic aerodynamics, including thermal loads and shockwave patterns associated with wedge-shaped leading edges. The ANSYS Fluent simulation successfully captured complex phenomena like shock-boundary layer interactions and expansion fans. Results demonstrated that wedge geometries produce more predictable shock patterns than blunt bodies at Mach 3.5, though thermal management remains critical due to stagnation temperatures exceeding 1000K.
