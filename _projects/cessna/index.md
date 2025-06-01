@@ -16,29 +16,29 @@ main-image: /_projects/cessna/pictures/profile.jpg
 ## Detailed Description
 This project conducted a full-spectrum performance analysis of the Cessna 172S Skyhawk trainer aircraft
 
-1. **Unaccelerated Flight**
+1. **Unaccelerated Flight:**
    Derived thrust/power required curves using drag polar $C_D = 0.0341 + 0.0292C_L^2$
    Calculated max L/D ratio (17.47 @ 864 ft/s), stall speed (86.8 ft/s SL), and climb performance (24.2 ft/s ROC at SL)
    
-2. **Accelerated Flight**
-   * Determined turn performance (679 ft min radius, 16°/s max rate)
-   * Modeled range (1,185 km) and endurance (4.5 hrs) with specific fuel consumption
+2. **Accelerated Flight:**
+    Determined turn performance (679 ft min radius, 16°/s max rate)
+    Modeled range (1,185 km) and endurance (4.5 hrs) with specific fuel consumption
    
-3. **Operational Analysis**
-   * Takeoff distance: 834 ft (ground roll + airborne)
-   * Landing distance: 813 ft (approach-to-ground roll)
+3. **Operational Analysis:**
+    Takeoff distance: 834 ft (ground roll + airborne)
+    Landing distance: 813 ft (approach-to-ground roll)
    
-4. **Validation** Compared results against factory specs, identifying error sources (e.g., 28% thrust deviation due to drag polar assumptions)
+4. **Validation:** Compared results against factory specs, identifying error sources (e.g., 28% thrust deviation due to drag polar assumptions)
 
 ## Analysis
 The performance metrics were benchmarked against actual aircraft data to validate computational methods.
 
 ### Key Findings and Observations:
-* **Thrust Prediction:** Min required thrust was underestimated due to simplified induced drag modeling, resulting in a 28% error
-* **Takeoff/Landing Performance:** Within a 13% margin of actual data, indicating acceptable accuracy using energy-based models
-* **Stall Speed:** Closely aligned with published values (1.8% deviation), reflecting robust CLmax estimates
-* **Turn Performance:** Showed distinct thrust and CLmax constraints across speed regimes
-* **Ceiling Calculation:** Exactly matched actual specification, validating standard atmosphere methods
+ **Thrust Prediction:** Min required thrust was underestimated due to simplified induced drag modeling, resulting in a 28% error
+ **Takeoff/Landing Performance:** Within a 13% margin of actual data, indicating acceptable accuracy using energy-based models
+ **Stall Speed:** Closely aligned with published values (1.8% deviation), reflecting robust CLmax estimates
+ **Turn Performance:** Showed distinct thrust and CLmax constraints across speed regimes
+ **Ceiling Calculation:** Exactly matched actual specification, validating standard atmosphere methods
 
 ### Aircraft Diagrams
 {% include image-gallery.html images="/_projects/cessna/pictures/details.jpg, /_projects/cessna/pictures/3views.jpg" height="400"%}
@@ -49,17 +49,17 @@ The performance metrics were benchmarked against actual aircraft data to validat
 <span style="font-size: 10px">Wing geometry analysis: Isometric, side and top views</span>
 
 ### Flight Demonstration
-{% include youtube-video.html id="eSUCLceZUjY" autoplay="false" %}
+{% include youtube-video.html id="udZSypx7e4E" autoplay="false" %}
 
 ## Conclusion
 The analysis confirmed the Cessna 172's exceptional training suitability—forgiving stall characteristics, stable low-speed handling, and predictable performance. Discrepancies versus factory data (≤28% error) stemmed from simplified drag modeling and constant-efficiency assumptions. Validated methodologies provide a framework for piston-aircraft performance optimization.
 
 ## Additional Text
 *Methodological Notes:*
-* Assumed constant propeller efficiency (η=0.7)
-* Used $C_{L_{max}}$ = 1.63 (clean)/1.2 (flaps)
-* Density model: ISA standard atmosphere
-* Code appendix: 16 MATLAB scripts for parametric analysis
+ Assumed constant propeller efficiency (η=0.7)
+ Used $C_{L_{max}}$ = 1.63 (clean)/1.2 (flaps)
+ Density model: ISA standard atmosphere
+ Code appendix: 16 MATLAB scripts for parametric analysis
 
 > *"The Cessna 172 taught the world to fly—not because it’s extraordinary, but because it makes the extraordinary achievable."*  
 > **— Aviation Historian**
