@@ -22,12 +22,12 @@ The flying wing configuration was analyzed for its aerodynamic benefits, includi
 The design achieved a balance between stealth, range, and payload capacity, demonstrating the viability of a delta-flying wing configuration for future bomber aircraft.
 
 ### Design Views
-{% include image-gallery.html images="/_projects/6_gen_bomber/pictures/iso.jpg, /_projects/6_gen_bomber/pictures/front.jpg, /_projects/6_gen_bomber/pictures/top.jpg, /_projects/6_gen_bomber/pictures/side.jpg" height="400"%}
+{% include image-gallery.html images="iso.jpg, /front.jpg, /top.jpg, /side.jpg" height="400"%}
 <span style="font-size: 10px">Orthographic projections: Isometric, Front, Top, and Side views</span>  
 
 ## Flight Simulation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/6_gen_bomber/pictures/bomb.mp4" type="video/mp4">
+  <source src="/bomb.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
