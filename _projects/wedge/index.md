@@ -7,7 +7,7 @@ skills:
   - Hypersonic shockwave modeling
   - 2D mesh generation
   - ANSYS Fluent high-speed flow setup
-main-image: /_projects/wedge/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -15,7 +15,7 @@ In this CFD project, a wedge airfoil was simulated under hypersonic conditions a
 
 # Analysis
 ## Flow Field Visualization
-{% include image-gallery.html images="/_projects/wedge/pictures/mach.jpg, /_projects/wedge/pictures/press.jpg, /_projects/wedge/pictures/vel.jpg, /_projects/wedge/pictures/stream.jpg" height="400"%}
+{% include image-gallery.html images="/mach.jpg, /press.jpg, /vel.jpg, /stream.jpg" height="400"%}
 <span style="font-size: 10px">Top-left: Mach number contour • Top-right: Pressure distribution • Bottom-left: Velocity vectors • Bottom-right: Streamline pattern</span>  
 
 ## Key Observations:
