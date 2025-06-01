@@ -29,7 +29,9 @@ The configuration used a turboprop engine in a rear-mounted pusher layout to red
 <span style="font-size: 10px">Front, side, top, back, and isometric views of UCAV design</span>  
 
  **Propulsion Placement:** Aft-mounted propeller reduced heat and radar signatures
+ 
  **Material Optimization:** Stealth composites and angled geometry for signature suppression
+ 
  **Flight Envelope:** All mission phases modeled with validated performance parameters
 
 ### MQ9 Reaper
@@ -40,7 +42,9 @@ Successfully delivered a viable combat drone concept with proven mission flexibi
 
 ## Additional Text
  Considered runway clearance delays through loiter hold logic
+ 
  Weight estimation followed Raymer's and Roskam’s methods
+ 
  Modular payload system for ISR/offensive mission flexibility
 
 > *"The devil is in the details, but so is salvation."*  
