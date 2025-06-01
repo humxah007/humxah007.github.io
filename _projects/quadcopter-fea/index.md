@@ -16,9 +16,11 @@ main-image: /_projects/quadcopter-fea/pictures/profile.jpg  <!-- Update path to 
 # Detailed Description
 The project involved importing a detailed quadcopter frame CAD model into ANSYS Workbench to conduct static structural simulations. Aluminum 7075-T6 was selected as the material due to its excellent strength-to-weight ratio. Loads were applied to simulate:
 
-* The weight of onboard components and payload (including motors, battery, and electronics),
-* Forces due to propeller thrust during hover (distributed on rotor mounts),
-* External impact forces simulating crash scenarios.
+ The weight of onboard components and payload (including motors, battery, and electronics),
+
+ Forces due to propeller thrust during hover (distributed on rotor mounts),
+
+ External impact forces simulating crash scenarios.
 
 Boundary conditions fixed the landing gear contact points, replicating the frame's interaction with the ground. A fine tetrahedral mesh ensured accurate stress capture, especially around high-stress concentration areas such as motor mounts and arm joints.
 
@@ -32,8 +34,15 @@ Stress concentrations were notably higher at the junctions where the arms meet t
 <span style="font-size: 10px">Figure: Equivalent stress, safety factor, and total deformation results from ANSYS simulation</span>
 
 ### Deformation and Stress Animation
-{% include local-video.html file="/_projects/quadcopter-fea/pictures/total_def.mp4" %}
-{% include local-video.html file="/_projects/quadcopter-fea/pictures/equiv_stress.mp4" %}
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/quadcopter-fea/pictures/total_def.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/quadcopter-fea/pictures/equiv_stress.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ## Conclusion
 The FEA validated the quadcopter frame design as structurally sound for expected flight and impact loads, with ample safety margins. Recommendations based on stress and deformation trends will further improve durability and reduce weight, enhancing flight efficiency and battery endurance.
@@ -49,6 +58,7 @@ This project underscores the critical role of FEA in UAV design, enabling predic
 [Quadcopter Design Reference](https://www.sciencedirect.com/science/article/pii/S2352340918311042)  
 
 ## Performance Specifications
+
 | **Parameter**        | **Value**               | **Remarks**                    |
 |----------------------|-------------------------|--------------------------------|
 | Max Von Mises Stress | 0.48 MPa                | Well below yield (503 MPa)     |
