@@ -27,7 +27,7 @@ The design achieved a balance between stealth, range, and payload capacity, demo
 
 ## Flight Simulation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/6_gen_bomber/pictures/6gen_bomb.mp4" type="video/mp4">
+  <source src="/_projects/6_gen_bomber/pictures/bomb.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
