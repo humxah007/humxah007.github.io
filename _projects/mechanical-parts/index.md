@@ -7,7 +7,8 @@ skills:
   - Gear profile creation
   - Helical and twisted geometry modeling
   - Rendering in CATIA V5
-main-image: /proflie.jpg  <!-- Update path -->
+
+main-image: /proflie.jpg  
 ---
 
 ## Detailed Description
