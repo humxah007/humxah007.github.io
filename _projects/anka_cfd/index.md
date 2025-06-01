@@ -11,7 +11,7 @@ skills:
   - Validation techniques
   - Technical documentation
 
-main-image: /_projects/anka cfd/pictures/profile.jpg
+main-image: /_projects/anka_cfd/pictures/profile.jpg
 ---
 
 # Detailed Description
@@ -42,7 +42,7 @@ This analysis sets the groundwork for enhanced aerodynamic control strategies su
 
 ## CFD Results Visualization
 ### Pressure Contour and Flow Characteristics
-{% include image-gallery.html images="/_projects/anka cfd/pictures/press.jpg, /_projects/anka cfd/pictures/vel-vect.jpg, /_projects/anka cfd/pictures/vel-proj.jpg, /_projects/anka cfd/pictures/stream.jpg" height="350"%}
+{% include image-gallery.html images="/_projects/anka_cfd/pictures/press.jpg, /_projects/anka_cfd/pictures/vel-vect.jpg, /_projects/anka_cfd/pictures/vel-proj.jpg, /_projects/anka_cfd/pictures/stream.jpg" height="350"%}
 <span style="font-size: 10px">From left: Surface pressure distribution, Velocity vectors, Velocity magnitude projection, Streamline visualization</span>  
 
 ## Flight Demonstration
