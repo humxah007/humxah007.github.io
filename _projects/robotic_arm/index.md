@@ -22,18 +22,21 @@ A kinematic feasibility check was performed to ensure the full range of motion f
 ### Conclusion
 The successful design of a fully articulated 6-axis robotic arm model in CATIA V5 demonstrates proficiency in complex mechanical CAD design and foundational robotics concepts. This project sets a solid base for future enhancements such as dynamic simulation, control algorithm development, and physical prototyping.
 
-### Additional Text
+## Additional Text
 *Future Work:*
-* Integration with CATIA's DMU Kinematics module for dynamic simulation
-* Finite element analysis (FEA) to optimize material strength and weight
-* Incorporation of sensors and actuators for control system testing
+
+ Integration with CATIA's DMU Kinematics module for dynamic simulation
+
+ Finite element analysis (FEA) to optimize material strength and weight
+
+ Incorporation of sensors and actuators for control system testing
 
 ### Robotic Arm Views
 {% include image-gallery.html images="/_projects/robotic_arm/pictures/iso.jpg, /_projects/robotic_arm/pictures/front.jpg, /_projects/robotic_arm/pictures/top.jpg, /_projects/robotic_arm/pictures/side.jpg" height="400"%}
 <span style="font-size: 10px">Isometric, Front, Top, and Side Views of the 6-Axis Robotic Arm</span>  
 
 ### Operation Demonstration
-{% include youtube-video.html id="YMK1awmsUYaZWDXL" autoplay="false" %}
+{% include youtube-video.html id="QXkBMs30JAs" autoplay="false" %}
 
 ### Quote
 > *"Robotics is not just about building machines; it's about engineering intelligent systems to extend human capability."*
