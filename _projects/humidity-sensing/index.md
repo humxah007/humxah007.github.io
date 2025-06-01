@@ -35,6 +35,7 @@ This project demonstrates the successful use of Arduino and sensor integration f
 {% include youtube-video.html id="1AgcNQ-J0Y8" autoplay="false"%}
 
 ## Component Specifications
+
 | Component          | Description                               |
 |--------------------|-------------------------------------------|
 | Arduino Uno        | Microcontroller board for data processing |
