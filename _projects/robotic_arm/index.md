@@ -36,7 +36,7 @@ The successful design of a fully articulated 6-axis robotic arm model in CATIA V
 <span style="font-size: 10px">Isometric, Front, Top, and Side Views of the 6-Axis Robotic Arm</span>  
 
 ### Operation Demonstration
-{% include youtube-video.html id="QXkBMs30JAs" autoplay="false" %}
+{% include youtube-video.html id="CJ3tXfa2DTs" autoplay="false" %}
 
 ### Quote
 > *"Robotics is not just about building machines; it's about engineering intelligent systems to extend human capability."*
