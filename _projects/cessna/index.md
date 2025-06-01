@@ -10,7 +10,7 @@ skills:
   - Energy Methods (V-n diagrams, Ps contours)
   - Error Analysis & Validation
 
-main-image: /_projects/cessna/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 ## Detailed Description
@@ -48,11 +48,11 @@ The performance metrics were benchmarked against actual aircraft data to validat
  
 
 ### Aircraft Diagrams
-{% include image-gallery.html images="/_projects/cessna/pictures/details.jpg, /_projects/cessna/pictures/3views.jpg" height="400"%}
+{% include image-gallery.html images="/details.jpg, /3views.jpg" height="400"%}
 <span style="font-size: 10px">Aircraft systems diagram and three-view drawings</span>
 
 ### Wing Analysis
-{% include image-gallery.html images="/_projects/cessna/pictures/wing_iso.jpg, /_projects/cessna/pictures/wing_side.jpg, /projects/cessna/pictures/wing_top.jpg" height="300"%}
+{% include image-gallery.html images="/wing_iso.jpg, /wing_side.jpg, /wing_top.jpg" height="300"%}
 <span style="font-size: 10px">Wing geometry analysis: Isometric, side and top views</span>
 
 ### Flight Demonstration
