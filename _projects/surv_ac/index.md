@@ -15,9 +15,12 @@ This project involved designing a long-range unmanned surveillance aircraft opti
 
 ## Analysis
 ### Aircraft Configuration Features
-- **Inverted Tail Design**: Enhances pitch stability by 23% compared to conventional tails
-- **Fuselage-Wing Blending**: Reduces drag by 15% through smooth aerodynamic transition
-- **Payload Integration**: Centralized sensor bay with minimal airflow disruption
+
+ **Inverted Tail Design**: Enhances pitch stability by 23% compared to conventional tails
+ 
+ **Fuselage-Wing Blending**: Reduces drag by 15% through smooth aerodynamic transition
+ 
+ **Payload Integration**: Centralized sensor bay with minimal airflow disruption
 
 ### Conclusion
 Demonstrated advanced aircraft configuration skills and the ability to merge conceptual design tools with CAD software for realistic visualization. The inverted tail design proved particularly effective for long-endurance missions requiring stable observation platforms.
@@ -29,7 +32,11 @@ Demonstrated advanced aircraft configuration skills and the ability to merge con
 
 ## Embedding Videos
 ### Flight Simulation
-{% include local-video.html file="/_projects/surv_ac/pictures/flying.mp4" autoplay="true" loop="true" %}
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/surv_ac/pictures/flying.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 
 ### Surveillance Aircraft Overview
 {% include youtube-video.html id="X2UyL9N0ErM" autoplay="false" %}
@@ -38,7 +45,7 @@ Demonstrated advanced aircraft configuration skills and the ability to merge con
 
 ## Quote
 > "Surveillance begins with a design that sees farther and flies longer."
-> <footer>Aviation Insight</footer>
+> - Aviation Insight
 
 ## External Links
 - [OpenVSP by NASA](https://openvsp.org/)
