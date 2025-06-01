@@ -10,7 +10,8 @@ skills:
   - Structural Load Application & Boundary Conditions
   - Interpretation of Stress-Strain Results
   - Design Optimization for Weight and Strength
-main-image: /profile.jpg  <!-- Update path to your main profile image -->
+
+main-image: /profile.jpg  
 ---
 
 # Detailed Description
@@ -35,11 +36,11 @@ Stress concentrations were notably higher at the junctions where the arms meet t
 
 ### Deformation and Stress Animation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/def.mp4" type="video/mp4">
+  <source src="/_projects/quadcopter-fea/def.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/stress.mp4" type="video/mp4">
+  <source src="/_projects/quadcopter-fea/stress.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
