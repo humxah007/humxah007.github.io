@@ -20,7 +20,7 @@ The simple font design facilitated straightforward tool paths and reduced machin
 Successfully demonstrated the ability to program complex and simple font styles for CNC engraving, considering practical machining constraints and achieving high-precision results.
 
 ### Font Comparison Results
-{% include image-gallery.html images="/hab_simple.jpg, /hab_hp.jpg" height="400"%}
+{% include image-gallery.html images="/hab_simple.jpeg, /hab_hp.jpg" height="400"%}
 <span style="font-size: 10px">Left: Simple straight font | Right: Harry Potter style font</span>  
 
 ### Engraving Process Demonstration
