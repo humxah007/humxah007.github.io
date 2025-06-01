@@ -7,6 +7,7 @@ skills:
   - Aerodynamic shaping
   - CATIA surface modeling
   - Multi-view rendering
+
 main-image: /profile.jpg  <!-- Update path -->
 ---
 
