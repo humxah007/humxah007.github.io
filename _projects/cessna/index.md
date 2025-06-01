@@ -16,7 +16,7 @@ main-image: /_projects/cessna/pictures/profile.jpg
 ## Detailed Description
 This project conducted a full-spectrum performance analysis of the Cessna 172S Skyhawk trainer aircraft
 
-1. Unaccelerated Flight:
+1. **Unaccelerated Flight**
    Derived thrust/power required curves using drag polar $C_D = 0.0341 + 0.0292C_L^2$
    Calculated max L/D ratio (17.47 @ 864 ft/s), stall speed (86.8 ft/s SL), and climb performance (24.2 ft/s ROC at SL)
    
@@ -24,11 +24,11 @@ This project conducted a full-spectrum performance analysis of the Cessna 172S S
    * Determined turn performance (679 ft min radius, 16°/s max rate)
    * Modeled range (1,185 km) and endurance (4.5 hrs) with specific fuel consumption
    
-3. **Operational Analysis:**
+3. **Operational Analysis**
    * Takeoff distance: 834 ft (ground roll + airborne)
    * Landing distance: 813 ft (approach-to-ground roll)
    
-**Validation:** Compared results against factory specs, identifying error sources (e.g., 28% thrust deviation due to drag polar assumptions)
+4. **Validation** Compared results against factory specs, identifying error sources (e.g., 28% thrust deviation due to drag polar assumptions)
 
 ## Analysis
 The performance metrics were benchmarked against actual aircraft data to validate computational methods.
