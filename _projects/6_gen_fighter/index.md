@@ -9,7 +9,7 @@ skills:
   - Stealth technology integration
   - Supersonic aerodynamics
 
-main-image: /_projects/6_gen_fighter/pictures/profile.jpg 
+main-image: /profile.jpg 
 
 ---
 
@@ -23,12 +23,12 @@ Aerodynamic analysis focused on achieving supercruise capabilities and high mane
 The project successfully demonstrated the integration of aerodynamic modeling and detailed CAD rendering to conceptualize a 6th-generation fighter jet. The design balances stealth, speed, and agility, serving as a foundation for further development and simulation.
 
 ## Design Views
-{% include image-gallery.html images="/_projects/6_gen_fighter/pictures/iso.jpg, /_projects/6_gen_fighter/pictures/front.jpg, /_projects/6_gen_fighter/pictures/top.jpg, /_projects/6_gen_fighter/pictures/side.jpg" height="400"%}
+{% include image-gallery.html images="/iso.jpg, /front.jpg, /top.jpg, /side.jpg" height="400"%}
 <span style="font-size: 10px">Isometric, Front, Top, and Side views of the fighter jet design</span>
 
 ## Flight Simulation
 <video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/6_gen_fighter/pictures/6gen.mp4" type="video/mp4">
+  <source src="/_projects/6_gen_fighter/videoss/6gen.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
