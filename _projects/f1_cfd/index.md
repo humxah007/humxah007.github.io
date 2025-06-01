@@ -8,7 +8,7 @@ skills:
   - CFD simulation in ANSYS Fluent
   - Post-processing and contour plotting
 
-main-image: /_projects/f1_cfd/pictures/profile.jpg  # Path to your main image
+main-image: /profile.jpg  # Path to your main image
 ---
 
 ## Detailed Description
@@ -16,15 +16,15 @@ This simulation project involved importing an F1 car model into ANSYS Fluent and
 
 ## Analysis
 ### Pressure Contour Visualization
-{% include image-gallery.html images="/_projects/f1_cfd/pictures/pressfront.jpg, /_projects/f1_cfd/pictures/pressiso.jpg, /_projects/f1_cfd/pictures/presstop.jpg" height="400"%}
+{% include image-gallery.html images="/pressfront.jpg, /pressiso.jpg, /presstop.jpg" height="400"%}
 <span style="font-size: 10px">Pressure contours: Front, Isometric, and Top views</span>  
 
 ### Velocity Vector Analysis
-{% include image-gallery.html images="/_projects/f1_cfd/pictures/velfront.jpg, /_projects/f1_cfd/pictures/velside.jpg, /_projects/f1_cfd/pictures/veltop.jpg" height="400"%}
+{% include image-gallery.html images="/velfront.jpg, /velside.jpg, /veltop.jpg" height="400"%}
 <span style="font-size: 10px">Velocity vectors: Front, Side, and Top perspectives</span>  
 
 ### Streamlines Visualization
-{% include image-gallery.html images="/_projects/f1_cfd/pictures/streamiso.jpg" height="400"%}
+{% include image-gallery.html images="/streamiso.jpg" height="400"%}
 <span style="font-size: 10px">Isometric view of flow streamlines showing wake formation</span>  
 
 ### Aerodynamic Specialization in F1 Cars
