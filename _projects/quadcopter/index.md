@@ -26,7 +26,7 @@ This project focused on the design of a quadcopter capable of carrying a camera 
 This project offered hands-on insight into UAV system integration, balancing form with function for aerial applications. It helped visualize how surveillance systems can be compactly designed into UAV platforms.
 
 > "Four rotors. One mission. Infinite possibilities."
-> <footer>Drone Design Motto</footer>
+> – Drone Design Motto
 
 ## External Links
 [CATIA V5 Capabilities](https://www.3ds.com/products-services/catia/)  
