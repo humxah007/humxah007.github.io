@@ -17,7 +17,7 @@ This project involved creating a 3D model of a Formula 1 car with an emphasis on
 Achieved a high-fidelity 3D visualization of an F1 car that demonstrates solid understanding of motorsport design parameters and CAD proficiency.
 
 ## Design Views
-{% include image-gallery.html images="/isos.jpg, /top.jpg, /front.jpg, /side.jpg" height="400"%}
+{% include image-gallery.html images="/iso.jpg, /top.jpg, /front.jpg, /side.jpg" height="400"%}
 <span style="font-size: 10px">Isometric, Top, Front, and Side views of the F1 car design</span>  
 
 ## F1 Overview
