@@ -7,7 +7,7 @@ skills:
   - 3D part and assembly modeling
   - CATIA V5 surface modeling
   - Rendering and visualization
-main-image: /_projects/turbofan/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 # Detailed Description
@@ -21,7 +21,7 @@ Achieved a detailed CAD representation of a turbofan engine that reflects both e
 
 ## Renderings
 ### Turbofan Engine Views
-{% include image-gallery.html images="/_projects/turbofan/pictures/front.jpg, /_projects/turbofan/pictures/iso.jpg, /_projects/turbofan/pictures/side.jpg, /_projects/turbofan/pictures/covered.jpg" height="400"%}
+{% include image-gallery.html images="/front.jpg, /iso.jpg, /side.jpg, /covered.jpg" height="400"%}
 <span style="font-size: 10px">Front, Isometric, Side, and Covered Views</span>
 
 ## Operation Demonstration
