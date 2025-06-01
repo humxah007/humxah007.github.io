@@ -7,7 +7,7 @@ skills:
   - Frame and arm symmetry
   - Propeller and motor housing design
   - CATIA rendering techniques
-main-image: /_projects/quadcopter/pictures/profile.jpg
+main-image: /profile.jpg
 ---
 
 ## Detailed Description
@@ -15,7 +15,7 @@ This project focused on the design of a quadcopter capable of carrying a camera 
 
 ## Design Visualizations
 ### Quadcopter Views
-{% include image-gallery.html images="/_projects/quadcopter/pictures/front.jpg, /_projects/quadcopter/pictures/iso.jpg, /_projects/quadcopter/pictures/side.jpg, /_projects/quadcopter/pictures/top.jpg, /_projects/quadcopter/pictures/placed.jpg" height="400"%}
+{% include image-gallery.html images="/front.jpg, /iso.jpg, /side.jpg, /top.jpg, /placed.jpg" height="400"%}
 <span style="font-size: 10px">Orthographic views: Front, Isometric, Side, Top, and Placement configurations</span>  
 
 ## Operational Demonstration
