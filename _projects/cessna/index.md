@@ -35,7 +35,7 @@ This project conducted a full-spectrum performance analysis of the Cessna 172S S
 The performance metrics were benchmarked against actual aircraft data to validate computational methods.
 
 
-### Key Findings and Observations:
+## Key Findings and Observations:
  **Thrust Prediction:** Min required thrust was underestimated due to simplified induced drag modeling, resulting in a 28% error
  
  **Takeoff/Landing Performance:** Within a 13% margin of actual data, indicating acceptable accuracy using energy-based models
