@@ -51,7 +51,7 @@ The performance metrics were benchmarked against actual aircraft data to validat
 {% include image-gallery.html images="/details.jpg, /3views.jpg" height="400"%}
 <span style="font-size: 10px">Aircraft systems diagram and three-view drawings</span>
 
-### Wing Analysis
+### Wing Design
 {% include image-gallery.html images="/wing_iso.jpg, /wing_side.jpg, /wing_top.jpg" height="300"%}
 <span style="font-size: 10px">Wing geometry analysis: Isometric, side and top views</span>
 
