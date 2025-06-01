@@ -8,7 +8,7 @@ skills:
   - CATIA surface modeling
   - Multi-view rendering
 
-main-image: /profile.jpg  <!-- Update path -->
+main-image: /profile.jpg
 ---
 
 # Detailed Description
