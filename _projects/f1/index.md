@@ -21,7 +21,7 @@ Achieved a high-fidelity 3D visualization of an F1 car that demonstrates solid u
 <span style="font-size: 10px">Isometric, Top, Front, and Side views of the F1 car design</span>  
 
 ## F1 Overview
-{% include youtube-video.html id="zYpKWBXhcik" autoplay="false" %}
+{% include youtube-video.html id="s8WHY3Gusx0" autoplay="false" %}
 
 <br>
 
