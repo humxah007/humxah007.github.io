@@ -7,7 +7,8 @@ skills:
   - Inverted tail configuration analysis
   - OpenVSP modeling
   - CATIA V5 rendering and assembly
-main-image: /profile.jpg  <!-- Replace with your main image path -->
+
+main-image: /profile.jpg  
 ---
 
 # Detailed Description
