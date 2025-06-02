@@ -40,6 +40,12 @@ Stress concentrations were notably higher at the junctions where the arms meet t
   Your browser does not support the video tag.
 </video>
 
+<video autoplay loop muted playsinline controls width="100%">
+  <source src="/_projects/quadcopter-fea/videos/stress.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
 ## Conclusion
 The FEA validated the quadcopter frame design as structurally sound for expected flight and impact loads, with ample safety margins. Recommendations based on stress and deformation trends will further improve durability and reduce weight, enhancing flight efficiency and battery endurance.
 
