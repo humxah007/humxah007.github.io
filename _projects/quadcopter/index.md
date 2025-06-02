@@ -15,7 +15,7 @@ This project focused on the design of a quadcopter capable of carrying a camera 
 
 ## Design Visualizations
 ### Quadcopter Views
-{% include image-gallery.html images="/front.jpg, /iso.jpg, /side.jpg, /top.jpg, /placed.jpg" height="400"%}
+{% include image-gallery.html images="front.jpg, /iso.jpg, /side.jpg, /top.jpg, /placed.jpg" height="400"%}
 <span style="font-size: 10px">Orthographic views: Front, Isometric, Side, Top, and Placement configurations</span>  
 
 ## Operational Demonstration
