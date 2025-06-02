@@ -15,24 +15,36 @@ main-image: /profile.jpg
 
 ## Detailed Description
 This project involved comprehensive CFD analysis of a cyclorotor system - a novel vertical takeoff and landing (VTOL) propulsion concept. The simulation modeled four rotating blades (NACA 0012 airfoils) at 600 RPM in a 5m x 5m domain. Key aspects included:
-- Transient pressure-based solver with 2nd-order implicit time discretization
-- Realizable k-epsilon turbulence model with enhanced wall treatment
-- Dynamic mesh handling for blade rotation via Multiple Reference Frame (MRF) approach
-- Boundary conditions: 15 m/s axial inflow, pressure outlet, and periodic boundaries
-- Quantitative analysis of thrust generation and vortex shedding patterns
+ 
+ Transient pressure-based solver with 2nd-order implicit time discretization
+ 
+ Realizable k-epsilon turbulence model with enhanced wall treatment
+ 
+ Dynamic mesh handling for blade rotation via Multiple Reference Frame (MRF) approach
+ 
+ Boundary conditions: 15 m/s axial inflow, pressure outlet, and periodic boundaries
+ 
+ Quantitative analysis of thrust generation and vortex shedding patterns
 
 ## Analysis
 The solution revealed critical aerodynamic phenomena:
-- Strong tip vortices developing during blade rotation (see pathline visualization)
-- Pressure differential of up to 2.5 kPa between blade surfaces
-- Velocity vectors showing accelerated flow through blade passages
-- Achieved convergence with continuity residuals below 1e-5 after 5,000 iterations
+
+ Strong tip vortices developing during blade rotation (see pathline visualization)
+
+ Pressure differential of up to 2.5 kPa between blade surfaces
+
+ Velocity vectors showing accelerated flow through blade passages
+
+ Achieved convergence with continuity residuals below 1e-5 after 5,000 iterations
 
 ## Conclusion
 The cyclorotor configuration demonstrated viable VTOL capabilities with peak thrust of 850N at 600 RPM. Future work should investigate:
-1. Blade-pitch modulation during rotation
-2. Ground effect interactions
-3. Aeroacoustic noise prediction
+
+ Blade-pitch modulation during rotation
+
+ Ground effect interactions
+
+ Aeroacoustic noise prediction
 
 ### Flow Visualization
 {% include image-gallery.html images="/pathline.jpg, /static_pressure.jpg, /velocity_vector.jpg" height="400"%}
@@ -40,7 +52,7 @@ The cyclorotor configuration demonstrated viable VTOL capabilities with peak thr
 
 ## Pressure Field Dynamics (0.5x Speed)
 <video autoplay loop muted playsinline controls width="100%" id="slowmoVideo">
-  <source src="/static_pressure.mp4" type="video/mp4">
+  <source src="/_projects/cfd_cyclorotor/videos/static_pressure.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 <script>
