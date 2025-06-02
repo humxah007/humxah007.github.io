@@ -35,14 +35,10 @@ Stress concentrations were notably higher at the junctions where the arms meet t
 <span style="font-size: 10px">Figure: Equivalent stress, safety factor, and total deformation results from ANSYS simulation</span>
 
 ### Deformation and Stress Animation
-<video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/quadcopter-fea/videos/def.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video autoplay loop muted playsinline controls width="100%">
-  <source src="/_projects/quadcopter-fea/videos/stress.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+
+{% include local-video.html file="/_projects/quadcopter-fea/videos/def.mp4" %}
+
+{% include local-video.html file="/_projects/quadcopter-fea/videos/stress.mp4" %}
 
 
 ## Conclusion
