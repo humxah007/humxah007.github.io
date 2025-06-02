@@ -59,7 +59,7 @@ The cyclorotor configuration demonstrated viable VTOL capabilities with peak thr
   document.getElementById('slowmoVideo').playbackRate = 0.5;
 </script>
 
-## Experimental Validation
+## Cyclorotor Working
 <iframe width="100%" height="415" src="https://www.youtube.com/embed/Ub563Yc3xls" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <span style="font-size: 10px">University of Maryland cyclorotor wind tunnel test (reference)</span>
 
